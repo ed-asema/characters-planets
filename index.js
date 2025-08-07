@@ -41,7 +41,7 @@ fetch(BASE_URL + '/planets')
       anime2Div.innerHTML += `
         <div class="max-w-3xl mx-auto bg-white rounded-lg shadow-md overflow-hidden flex flex-col lg:flex-row mb-6">
           <img 
-            class="w-3/4 max-w-xs mx-auto lg:w-48 object-contain p-4" 
+            class="w-full lg:w-48 object-contain p-4" 
             src="${planet.image}" 
             alt="${planet.name}" 
             style="max-height: 200px;"
